@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cotação de Seguro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Cotação Online de Seguro Gerais</h1>
+        <p>Por favor, preencha o Formulário de Cotação de Seguro Geral para obter a cotação de seguro desejada.
+        Selecione as opções que mais combinam com as suas necessidades e você será contactado por um dos membros do nosso time. As informações fornecidas neste formulário de cotação de seguro geral não serão tornadas públicas.</p>
+        
+        <form>
+            <label>Nome:</label>
+            <div class="nome-campos">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Último">
+            </div>
+
+            <label>Data de Nascimento:</label>
+            <input type="text" placeholder="DD/MM/AAAA">
+
+            <label>E-mail:</label>
+            <input type="email" placeholder="Seu e-mail">
+
+            <label>Ocupação:</label>
+            <input type="text" placeholder="Sua ocupação">
+
+            <label>Eu estou interessado no(s) seguinte(s) tipo(s) de seguro:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Seguro de vida</label>
+                <label><input type="checkbox"> Seguro de saúde</label>
+                <label><input type="checkbox"> Seguro de casa</label>
+                <label><input type="checkbox"> Seguro de carro</label>
+                <label><input type="checkbox"> Seguro de hipoteca</label>
+                <label><input type="checkbox"> Seguro de empresa</label>
+                <label><input type="checkbox"> Seguro de invalidez</label>
+                <label><input type="checkbox"> Seguro de crédito</label>
+                <label><input type="checkbox"> Seguro de responsabilidade</label>
+                <label><input type="checkbox"> Seguro de criança</label>
+            </div>
+
+            <label>Qual(is) tipo(s) de seguro você possui atualmente?</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Seguro de vida</label>
+                <label><input type="checkbox"> Seguro de saúde</label>
+                <label><input type="checkbox"> Seguro de casa</label>
+                <label><input type="checkbox"> Seguro de carro</label>
+                <label><input type="checkbox"> Seguro de hipoteca</label>
+                <label><input type="checkbox"> Seguro de empresa</label>
+                <label><input type="checkbox"> Seguro de invalidez</label>
+                <label><input type="checkbox"> Seguro de crédito</label>
+                <label><input type="checkbox"> Seguro de responsabilidade</label>
+                <label><input type="checkbox"> Seguro de criança</label>
+            </div>
+
+            <label>Quando o seu seguro expira?</label>
+            <input type="text" placeholder="DD/MM/AAAA">
+
+            <label>O quanto você está disposto a mudar o seu agente de seguro?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="disposto"> Extremamente disposto</label>
+                <label><input type="radio" name="disposto"> Muito disposto</label>
+                <label><input type="radio" name="disposto"> Moderadamente disposto</label>
+                <label><input type="radio" name="disposto"> Pouco disposto</label>
+                <label><input type="radio" name="disposto"> Não estou disposto</label>
+            </div>
+
+            <label>O quanto você está disposto a gastar em um seguro mensal?</label>
+            <input type="text" placeholder="BRL 0.00">
+
+            <button type="submit">Obtenha sua cotação de seguro</button>
+        </form>
+    </div>
+</body>
+</html>
